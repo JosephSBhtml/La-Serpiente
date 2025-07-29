@@ -1,0 +1,28 @@
+
+/* Reseteo básico para eliminar márgenes y paddings predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Incluye padding y border en el tamaño total del elemento */
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #1a1a2e; /* Fondo oscuro, casi negro con un toque de azul */
+    display: flex; /* Usa flexbox para centrar el canvas */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+    overflow: hidden; /* Evita barras de desplazamiento si el contenido es más grande */
+    font-family: 'Share Tech Mono', monospace; /* Aplica la fuente estilo digital */
+    color: #e0e0e0; /* Color de texto por defecto */
+}
+
+/* Estilos para el elemento canvas (el tablero de juego) */
+canvas {
+    background-color: #2a2a4a; /* Fondo del tablero azul oscuro */
+    border: 5px solid #00f0ff; /* Borde cian brillante */
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0 0 30px rgba(0, 240, 255, 0.6); /* Sombra brillante cian */
+    display: block; /* Asegura que el canvas se comporte como un bloque */
+}
